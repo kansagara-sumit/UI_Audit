@@ -108,12 +108,18 @@ Installed via the [`skills`](https://skills.sh) CLI into `.agents/skills/`, syml
 | `shadcn-ui` | `giuseppe-trisciuoglio/developer-kit` | Component patterns for v3 |
 | `ui-animation` | `mblode/agent-skills` | Motion review (not applied — PowerApps can't build it) |
 | taste-skill bundle | `Leonxlnx/taste-skill` | `high-end-visual-design`, `redesign-existing-projects`, `minimalist-ui`, and 9 others |
+| `canvas-design` | `Prat011/awesome-llm-skills` | Static art boards as PNG/PDF — bundles its own font set |
+| `poster-design` | `arnavpuri/designskills` | Event posters and flyers — composition and type hierarchy for print/web |
 
 Reinstall with `npx skills add <source>`. `skills-lock.json` pins what is installed.
 
 Caveat: several of these overlap heavily on "make UI less generic" and will compete to
 auto-trigger. The core five are `ui-ux-pro-max`, `frontend-design`, `web-design-guidelines`,
 `shadcn-ui`, and `ui-animation`.
+
+`canvas-design` and `poster-design` are a different lane — static print/art output, not
+product UI. They should not fire on COMPASS screen work, and are here for collateral
+(one-pagers, launch posters) rather than the audit.
 
 ---
 
